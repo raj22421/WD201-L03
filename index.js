@@ -27,7 +27,7 @@ const todoList = () => {
               todo.dueDate == today ? "" : todo.dueDate
             }`
         )
-        
+     .join("\n");   
     };
   
     return {
